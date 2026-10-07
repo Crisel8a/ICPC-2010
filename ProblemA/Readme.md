@@ -3,4 +3,9 @@
     Problem A
   </a>
 </h1>
-# APL Lives!
+
+<h1 align="center">
+  <a href="#">
+    APL Lives!
+  </a>
+</h1>
