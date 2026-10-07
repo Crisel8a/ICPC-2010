@@ -64,3 +64,35 @@ La línea:
 ```
 
 indica que la entrada terminó y no debe procesarse. Cada línea anterior a # es un caso diferente.
+
+# Output
+Por cada expresión debes imprimir:
+
+```c
+Case número: expresión original
+resultado
+Para la entrada anterior:
+```
+
+```c
+var = 1 2 3
+var + 4
+iota 5
+2 drop iota 5
+#
+```
+
+la salida sería:
+
+```c
+Case 1: var = 1 2 3
+1 2 3
+Case 2: var + 4
+5 6 7
+Case 3: iota 5
+1 2 3 4 5
+Case 4: 2 drop iota 5
+3 4 5
+```
+
+Las variables se conservan entre casos. Por eso var, creada en el caso 1, puede usarse en el caso 2.
