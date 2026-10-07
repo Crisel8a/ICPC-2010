@@ -9,7 +9,7 @@
   @CIC-IPN Crisel Escalante, Octubre 2026
 </p>
 
-#¿Qué es APL?
+# ¿Qué es APL?
 APL es un lenguaje de programación especializado en trabajar con vectores y matrices.
 
 En lenguajes comunes escribirías:
