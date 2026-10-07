@@ -13,9 +13,15 @@
 APL es un lenguaje de programación especializado en trabajar con vectores y matrices.
 
 En lenguajes comunes escribirías:
-
+```c
 vector<int> numeros = {1, 2, 3};
+```
+
+
 En APL simplemente:
 
+```c
 1 2 3
+```
+
 El problema no utiliza todo APL, sino una versión pequeña llamada apl.
