@@ -42,3 +42,25 @@ Debe comprender que iota 5 significa “generar los números del 1 al 5” y pro
 ```c
 1 2 3 4 5
 ```
+
+# Problema
+Se debe escribir un programa que entienda y ejecute expresiones APL.
+
+# Input
+La entrada contiene varias expresiones. Cada expresión aparece en una línea:
+
+
+```c
+var = 1 2 3
+var + 4
+iota 5
+2 drop iota 5
+#
+```
+
+La línea:
+```c
+#
+```
+
+indica que la entrada terminó y no debe procesarse. Cada línea anterior a # es un caso diferente.
