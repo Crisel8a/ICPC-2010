@@ -43,9 +43,6 @@ Debe comprender que iota 5 significa “generar los números del 1 al 5” y pro
 1 2 3 4 5
 ```
 
-# Problema
-Se debe escribir un programa que entienda y ejecute expresiones APL.
-
 # Input
 La entrada contiene varias expresiones. Cada expresión aparece en una línea:
 
@@ -148,4 +145,67 @@ Se necesitan seis valores, pero solamente hay cuatro. Por eso vuelve a utilizarl
 1 2 3
 4 1 2
 ```
+
+## Reducción: + /, - /, * /
+Inserta un operador entre los elementos.
+
+```c
++ / 1 2 3 4
+```
+
+Equivale a:
+
+```c
+1 + 2 + 3 + 4
+```
+
+Resultado:
+
+```c
+10
+```
+En el caso de la resta se mantiene la evaluación de derecha a izquierda:
+
+```c
+- / 1 2 3
+```
+
+Equivale a:
+
+```c
+1 - (2 - 3)
+```
+
+Resultado:
+
+```c
+2
+```
+
+# Evaluación de derecha a izquierda
+** siempre se comienza por la derecha:**
+
+```c
+10 - 5 - 2
+```
+
+Se interpreta como:
+
+```c
+10 - (5 - 2)
+```
+
+# Problema
+Se debe escribir un programa que entienda y ejecute expresiones APL.
+
+Para cada línea:
+
+- Separar la expresión en elementos.
+- Reconocer números, variables, operadores y paréntesis.
+- Determinar el orden de las operaciones.
+- Evaluarlas de derecha a izquierda.
+- Guardar las variables creadas con =.
+- Manejar vectores, matrices y arreglos 3D.
+- Imprimir el resultado con el formato solicitado.
+
 
