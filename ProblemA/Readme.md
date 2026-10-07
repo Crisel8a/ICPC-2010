@@ -2,7 +2,5 @@
   <a href="#">
     Problem A
   </a>
-  <a href="#">
-    APL Lives!
-  </a>
 </h1>
+# APL Lives!
