@@ -66,7 +66,7 @@ La línea:
 indica que la entrada terminó y no debe procesarse. Cada línea anterior a # es un caso diferente.
 
 # Output
-Por cada expresión debes imprimir:
+Por cada expresión se debe imprimir:
 
 ```c
 Case número: expresión original
