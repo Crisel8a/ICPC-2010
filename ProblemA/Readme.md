@@ -96,3 +96,56 @@ Case 4: 2 drop iota 5
 ```
 
 Las variables se conservan entre casos. Por eso var, creada en el caso 1, puede usarse en el caso 2.
+
+## Generación: iota
+Genera los números desde 1 hasta el número indicado:
+
+```c
+iota 5
+```
+Resultado:
+
+```c
+1 2 3 4 5
+```
+
+## Eliminación: drop
+Elimina elementos del principio:
+
+```c
+2 drop 1 2 3 4 5
+```
+
+Resultado:
+
+```c
+3 4 5
+```
+
+## Cambio de forma: rho
+Convierte un vector en una matriz:
+
+```c
+2 2 rho 1 2 3 4
+```
+
+2 2 indica dos filas y dos columnas:
+
+```c
+1 2
+3 4
+```
+
+Otro ejemplo:
+
+```c
+2 3 rho 1 2 3 4
+```
+
+Se necesitan seis valores, pero solamente hay cuatro. Por eso vuelve a utilizarlos desde el principio:
+
+```c
+1 2 3
+4 1 2
+```
+
