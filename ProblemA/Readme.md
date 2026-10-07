@@ -25,3 +25,20 @@ En APL simplemente:
 ```
 
 El problema no utiliza todo APL, sino una versión pequeña llamada apl.
+# ¿Qué es un intérprete?
+Un intérprete es un programa que:
+
+- Recibe código escrito como texto.
+- Analiza qué significa.
+- Ejecuta las instrucciones.
+- Muestra el resultado.
+- Por ejemplo, tu programa recibe:
+
+```c
+iota 5
+```
+Debe comprender que iota 5 significa “generar los números del 1 al 5” y producir:
+
+```c
+1 2 3 4 5
+```
