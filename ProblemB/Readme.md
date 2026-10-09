@@ -1,4 +1,13 @@
-<<<<<<< HEAD
+<h1 align="center">
+  <a href="#">
+    Problem B
+  </a>
+</h1>
+
+<p align="center">
+  <strong>Barcodes</strong><br>
+  @CIC-IPN Crisel Escalante, Octubre 2026
+</p>
 # Decodificador de códigos de barras Code-11
 
 ## Descripción del problema
@@ -785,4 +794,3 @@ Para cada caso de prueba, el programa debe:
 5. Recuperar el mensaje y los caracteres `C` y `K`.
 6. Comprobar los dos caracteres de verificación.
 7. Imprimir el mensaje o el error correspondiente.
->>>>>>> a86c412429ba2672f5fe573a5fd889022cc83712
