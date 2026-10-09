@@ -8,6 +8,7 @@
   <strong>Barcodes</strong><br>
   @CIC-IPN Crisel Escalante, Octubre 2026
 </p>
+
 # Decodificador de códigos de barras Code-11
 
 ## Descripción del problema
