@@ -1,4 +1,13 @@
-# Conquista de castillos
+<h1 align="center">
+  <a href="#">
+    Problem D
+  </a>
+</h1>
+
+<p align="center">
+  <strong>Conquista de castillos</strong><br>
+  @CIC-IPN Crisel Escalante, Octubre 2026
+</p>
 
 ## Contexto
 

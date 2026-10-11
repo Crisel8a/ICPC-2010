@@ -1,11 +1,11 @@
 <h1 align="center">
   <a href="#">
-    Problem B
+    Problem F
   </a>
 </h1>
 
 <p align="center">
-  <strong>Irrigation Channel</strong><br>
+  <strong>Contour Mapping</strong><br>
   @CIC-IPN Crisel Escalante, Octubre 2026
 </p>
 
